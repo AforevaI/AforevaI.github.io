@@ -1,0 +1,130 @@
+
+
+
+
+
+
+<html>
+<head>'
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="font-awesome.css">
+    <link rel="stylesheet" href="templatemo-klassy-cafe.css">
+    <link rel="stylesheet" href="owl-carousel.css">
+    <link rel="stylesheet" href="lightbox.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet">
+
+<style>
+body {
+  background: #EEF2F7;
+}
+.box {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+height:auto;
+  width: 80%;
+  margin: auto;
+padding:20px;
+  background: white;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+ <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                       
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="home.html">Home</a></li>
+                            <li class="scroll-to-section"><a href="time.html">TimeLine</a></li> 
+			   
+                            <li class="scroll-to-section"><a href="mm.html">Meme</a></li>
+                            <li class="scroll-to-section"><a href="notes.html">Notes</a></li> 
+			    	
+                         
+                            <li class="submenu">
+                                <a href="javascript:;"  class="active">Surprises</a>
+                                <ul>
+                                    <li><a href="ss1.html">Surprise 1</a></li>
+                                    <li><a href="ss2.html">Surprise 2</a></li>
+                                    <li><a href="ss3.html">Surprise 3</a></li>
+				    <li><a href="ss4.html">Surprise 4</a></li>
+                                </ul>
+                            </li>
+                       
+                            
+                            <li class="submenu">
+                                <a href="javascript:;">Love Letters</a>
+                                <ul>
+                                    	<li><a href="ll1.html">Love Letter 1</a></li>
+                                    	<li><a href="ll2.html">Love Letter 2</a></li>
+				    	<li><a href="ll3.html">Love Letter 3</a></li>
+					<li><a href="ll4.html">Love Letter 4</a></li>
+					<li><a href="ll5.html">Love Letter 5</a></li>
+					<li><a href="ll6.html">Love Letter 6</a></li>
+                                </ul>
+                            </li>
+			    <li class="scroll-to-section"><a href="echoar.html">Virtual Love</a></li>
+                            <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
+                            <li class="scroll-to-section"><a href="contact.html">Contact Us</a></li> 
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="box">
+<center><h2>Small Surprise - 02</h2></center>
+<br>
+<div style="text-align:center"> 
+  <button style="padding: 10px 24px;background-color: #008CBA;border-radius: 8px;" onclick="playPause()">Play/Pause</button> 
+  <button style="padding: 10px 24px;background-color: #f44336;border-radius: 8px;" onclick="makeBig()">Big</button>
+  <button style="padding: 10px 24px;background-color: #008CBA;border-radius: 8px;" onclick="makeSmall()">Small</button>
+  <button style="padding: 10px 24px;background-color: #f44336;border-radius: 8px;" onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420" muted>
+    <source src="VID_20200629_185934.mp4" type="video/mp4">
+</div>
+</div>
+</body>
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 800; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 400; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 600; 
+} 
+</script> 
+
+</html>
